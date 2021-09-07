@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    tools:context=".SelectUserActivity">
+
+
+    <LinearLayout
+        android:id="@+id/list"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:text="Select Reports"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#236517"
+            android:textStyle="italic|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <Button
+            android:id="@+id/but_one"
+            android:text="FeedBack Reports"
+            android:layout_marginTop="100dp"
+            android:background="#DAF5C0"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/but_two"
+            android:text="Client Reports"
+            android:layout_marginTop="50dp"
+            android:background="#DAF5C0"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/but_three"
+            android:text="Back To Control"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:background="#DAF5C0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

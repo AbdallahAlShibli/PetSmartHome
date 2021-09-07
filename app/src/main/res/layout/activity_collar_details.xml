@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".signup_ClientActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Collar Information"
+            android:textColor="#236517"
+            android:textSize="30dp" />
+
+
+
+        <TextView
+            android:id="@+id/textC_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="Pet ID:"
+            android:textColor="#090909"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+           />
+
+        <TextView
+            android:id="@+id/textPET_COLOR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collar-Material:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+
+        <TextView
+            android:id="@+id/Col_Material"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textPET_NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neck-Width:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <TextView
+            android:id="@+id/Col_NeckWidth"
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+
+
+        <TextView
+            android:id="@+id/textPET_TYPE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collar-Color:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <TextView
+            android:id="@+id/Col_Color"
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <TextView
+            android:id="@+id/Col_Price"
+            android:layout_width="match_parent"
+            android:layout_height="36dp" />
+
+
+
+        <Button
+            android:id="@+id/But_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Back To Control"
+            android:background="#DAF5C0"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="581dp" />
+
+    </LinearLayout>
+
+
+</ScrollView >

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "642678378625",
+    "firebase_url": "https://pet-smart-homeapp.firebaseio.com",
+    "project_id": "pet-smart-homeapp",
+    "storage_bucket": "pet-smart-homeapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642678378625:android:baeb61a720a3a2da287d80",
+        "android_client_info": {
+          "package_name": "com.example.petsmarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642678378625-rrsqm4689qgtvamvtm2g0pbtomf3g7po.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petsmarthome",
+            "certificate_hash": "2305a89397251600b6f46c8e4881d06a93c93f9d"
+          }
+        },
+        {
+          "client_id": "642678378625-d5l63694qdar92hgrgpht6576kpnfifl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGAQz-u-3lh0fl0bycBgOdlZQezsmcV8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642678378625-d5l63694qdar92hgrgpht6576kpnfifl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

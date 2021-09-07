@@ -1,0 +1,2 @@
+rootProject.name='Pet Smart Home'
+include ':app'

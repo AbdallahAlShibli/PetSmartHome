@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    tools:context=".SelectUserActivity">
+
+
+    <LinearLayout
+        android:id="@+id/list"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text"
+            android:text="Control Admin"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/but_one"
+            android:text="Sign up Client"
+            android:background="#DAF5C0"
+            android:layout_marginTop="110dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/but_two"
+            android:text="Sign up Pet"
+            android:background="#DAF5C0"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/but_four"
+            android:text="Register Collar-Pet"
+            android:layout_marginTop="10dp"
+            android:background="#DAF5C0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/but_Client"
+            android:text="Delete Client"
+            android:layout_marginTop="10dp"
+            android:background="#DAF5C0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/but_pet"
+            android:text="Delete/ Update Pet"
+            android:layout_marginTop="10dp"
+            android:background="#DAF5C0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/but_rep"
+            android:text="get Reports"
+            android:background="#DAF5C0"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/but_three"
+            android:text="Exit"
+            android:background="#DAF5C0"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

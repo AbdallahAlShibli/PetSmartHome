@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#236517"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:layout_marginTop="170dp"
+        >
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:capitalize="none"
+            android:paddingLeft="10dp"
+            android:hint="Enter Email"
+            android:drawablePadding="5dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Enter Password"
+            android:drawablePadding="5dp"
+            android:paddingLeft="10dp"
+            android:inputType="textPassword" />
+        <TextView
+            android:id="@+id/tvInfo"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_alignStart="@+id/etName"
+            android:layout_alignLeft="@+id/etName"
+            android:gravity="center"
+            android:text="To Reset Password Enter your Email Press the Button and Check Mail to Follow Instructions" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/but_id"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:padding="30dp">
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="#DAF5C0"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="LOGIN"
+            />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#DAF5C0"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:text="Back"
+            />
+
+
+        <Button
+            android:id="@+id/ForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:text="forget Password"
+            android:textColor="@color/colorPrimaryDark"
+            app:fontFamily="serif" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/No"
+        android:layout_width="300dp"
+        android:layout_height="27dp"
+        />
+    <TextView
+        android:id="@+id/U_Name"
+        android:layout_width="300dp"
+        android:layout_height="27dp"
+        />
+    <TextView
+        android:id="@+id/Tec_Name"
+        android:layout_width="300dp"
+        android:layout_height="27dp"
+        />
+    <TextView
+        android:id="@+id/student_name"
+        android:layout_width="300dp"
+        android:layout_height="27dp"
+        />
+</RelativeLayout>

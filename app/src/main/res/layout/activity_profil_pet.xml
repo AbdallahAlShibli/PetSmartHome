@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".signup_ClientActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Register Pet"
+            android:textColor="#236517"
+            android:textSize="30dp" />
+
+
+
+        <TextView
+            android:id="@+id/textC_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C ID:"
+            android:textColor="#F4071F"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+
+
+        <EditText
+            android:id="@+id/E_CID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLength="3"
+            tools:layout_editor_absoluteY="142dp" />
+
+
+        <TextView
+            android:id="@+id/textPet_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet ID:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+
+        <EditText
+            android:id="@+id/E_PetID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="3"
+            android:inputType="number"
+            tools:layout_editor_absoluteY="62dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textPET_NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PET NAME:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <EditText
+            android:id="@+id/E_PETNAME"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:digits=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:ems="10"
+            android:inputType="text"
+            tools:layout_editor_absoluteY="62dp" />
+
+
+
+
+        <TextView
+            android:id="@+id/textPET_COLOR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PET COLOR:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <EditText
+            android:id="@+id/E_PETCOLOR"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            tools:layout_editor_absoluteY="310dp" />
+
+
+        <TextView
+            android:id="@+id/textPET_TYPE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PET TYPE:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <EditText
+            android:id="@+id/E_PETTYPE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            tools:layout_editor_absoluteY="310dp" />
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Update"
+            android:background="#DAF5C0"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="581dp" />
+        <Button
+            android:id="@+id/delete_pet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Delete"
+            android:background="#DAF5C0"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="581dp" />
+
+        <Button
+            android:id="@+id/But_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Back To Control"
+            android:background="#DAF5C0"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="581dp" />
+
+    </LinearLayout>
+
+
+</ScrollView >

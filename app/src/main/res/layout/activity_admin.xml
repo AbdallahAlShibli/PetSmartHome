@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/title"
+            android:text="Admin Activities"
+            android:gravity="center"
+            android:textColor="#236517"
+            android:textStyle="italic|bold"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/title1"
+            android:text="Client Details"
+            android:gravity="center"
+            android:textStyle="italic|bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edit_1"
+                android:layout_width="200dp"
+                android:hint="Enter Clint No"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/but_1"
+                android:text="Update Client"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edit_3"
+                android:layout_width="200dp"
+                android:hint="Enter Client No"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/but_3"
+                android:layout_width="match_parent"
+                android:text="Search Client"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+            <TextView
+                android:id="@+id/title2"
+                android:text="Pet Details"
+                android:gravity="center"
+                android:textStyle="italic|bold"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edit_4"
+                    android:layout_width="200dp"
+                    android:hint="Enter Pet No"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/but_4"
+                    android:text="Update Pet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edit_5"
+                    android:layout_width="200dp"
+                    android:hint="Enter Pet No"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/but_5"
+                    android:layout_width="match_parent"
+                    android:text="Delete Pet"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/edit_6"
+                    android:layout_width="200dp"
+                    android:hint="Enter Pet No"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/but_6"
+                    android:layout_width="match_parent"
+                    android:text="Search Pet"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp" />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/b_feedback"
+            android:text="Check FeedBack"
+            android:background="#DAF5C0"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/b_back"
+            android:text="Back To Control Admin"
+            android:layout_marginTop="5dp"
+            android:background="#DAF5C0"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background"
+    tools:context=".ReportClientActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#236517"
+        android:textSize="20dp"
+       />
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="80dp"
+        />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:background="#DAF5C0"
+        android:text="Download PDF" />
+    <Button
+        android:id="@+id/back_C"
+        android:text="back to admin Control"
+        android:layout_marginTop="500dp"
+        android:background="#DAF5C0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

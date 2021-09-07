@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".signup_ClientActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Register Collar Information"
+            android:textColor="#236517"
+            android:textSize="30dp" />
+
+
+
+        <TextView
+            android:id="@+id/textC_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Pet ID:"
+            android:textColor="#F4071F"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+
+        <Spinner
+            android:id="@+id/Col_PetID"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/squer_button" />
+
+        <TextView
+            android:id="@+id/textPET_COLOR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collar-Material:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+        <TextView
+            android:id="@+id/No"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:id="@+id/Col_Material"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/squer_button" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textPET_NAME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neck-Width:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <EditText
+            android:id="@+id/Col_NeckWidth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="4"
+            android:inputType="numberDecimal"
+
+            tools:layout_editor_absoluteY="62dp" />
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textPET_TYPE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collar-Color:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <Spinner
+            android:id="@+id/Col_Color"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/squer_button" />
+
+        <TextView
+            android:id="@+id/textPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <EditText
+            android:id="@+id/Col_Price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="4"
+            android:inputType="numberDecimal"
+            tools:layout_editor_absoluteY="310dp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Register"
+            android:background="#DAF5C0"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="581dp" />
+
+        <Button
+            android:id="@+id/But_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Back To Control"
+            android:background="#DAF5C0"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="581dp" />
+
+    </LinearLayout>
+
+
+</ScrollView >

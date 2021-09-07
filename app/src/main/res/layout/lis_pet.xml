@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/test1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Pet ID"
+        android:background="#ffe238"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Pet Name"
+        android:background="#ffe238"
+        android:padding="10dp"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Pet Type"
+        android:background="#ffe238"
+        android:padding="10dp"
+        />
+
+</LinearLayout>

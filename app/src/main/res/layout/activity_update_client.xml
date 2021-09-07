@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".signup_ClientActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Update Client Details"
+            android:textColor="#236517"
+            android:textSize="30dp" />
+
+
+
+        <TextView
+            android:id="@+id/textC_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID:"
+
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+
+
+        <TextView
+            android:id="@+id/Edit_C_ID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLength="3"
+            tools:layout_editor_absoluteY="142dp" />
+
+
+        <TextView
+            android:id="@+id/textFull_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+
+        <TextView
+            android:id="@+id/Edit_Full_Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:digits=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:ems="10"
+            android:inputType="text"
+            tools:layout_editor_absoluteY="62dp" />
+
+
+
+        <TextView
+            android:id="@+id/textC_GENDER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+
+        <TextView
+            android:id="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/textC_AGE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="39dp" />
+
+        <EditText
+            android:id="@+id/Edit_C_AGE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="2"
+            android:inputType="number"
+            />
+
+
+
+        <TextView
+            android:id="@+id/textC_ADDRESS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <EditText
+            android:id="@+id/Edit_C_ADDRESS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            tools:layout_editor_absoluteY="310dp" />
+
+
+        <TextView
+            android:id="@+id/textC_EMAIL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <TextView
+            android:id="@+id/Edit_C_Email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            tools:layout_editor_absoluteY="310dp" />
+
+        <TextView
+            android:id="@+id/textC_PHONE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact number:"
+            android:textColor="#0A1114"
+            android:textSize="18sp"
+            app:fontFamily="serif"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="368dp" />
+
+        <EditText
+            android:id="@+id/Edit_C_PHONE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:maxLength="8"
+            tools:layout_editor_absoluteY="402dp" />
+
+
+
+
+
+
+        <Button
+            android:id="@+id/updateClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Update"
+            android:background="#DAF5C0"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="581dp" />
+        <Button
+            android:id="@+id/Button_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Back To Control"
+            android:background="#DAF5C0"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="581dp" />
+
+        <TextView
+            android:id="@+id/en_Pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+
+</ScrollView >
